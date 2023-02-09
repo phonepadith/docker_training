@@ -1,4 +1,4 @@
-ตั้งแต่ Chapter8 - Chapter16 ผู้อ่านจะได้รับ Code สำหรับการทำ Practice Workshop เพื่อความสะดวกโดยไม่ต้องพิมพ์ Code เองตั้งแต่ต้น
+ตั้งแต่ Chapter8 - Chapter16 ຜູ້ອ່ານຈະໄດ້ Code ສຳລັບການເຮັດ Practice Workshop ເພື່ອຄວາມສະດວກບໍ່ຕ້ອງ Code ເອງ
 
 Chapter8
 docker101/
@@ -10,7 +10,7 @@ Chapter9
 small_image/
 .
 ├── Dockerfile
-└── Dockerfile_edit #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ Dockerfile เมื่อทำ Practice Workshop ถึงหน้า 132
+└── Dockerfile_edit 
 
 web_dock/
 .
@@ -41,10 +41,10 @@ nginx_dock/
 lemp_dock/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 167
+├── docker-compose_edit.yml 
 ├── html/
 │   ├── index.php
-│   └── index_edit.php #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ index.php เมื่อทำ Practice Workshop ถึงหน้า 169
+│   └── index_edit.php 
 ├── mariadb/
 │   ├── backup/
 │   ├── data/
@@ -62,17 +62,17 @@ Chapter11
 nginx_proxy_dock/
 .
 ├── docker-compose.yml
-└── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 190
+└── docker-compose_edit.yml 
 
 website1/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 182
-├── docker-compose_edit2.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 192
-├── docker-compose_edit3.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 195
+├── docker-compose_edit.yml 
+├── docker-compose_edit2.yml 
+├── docker-compose_edit3.yml 
 ├── html/
 │   ├── index.php
-│   └── index_edit.php #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ index.php เมื่อทำ Practice Workshop ถึงหน้า 183
+│   └── index_edit.php #นำ Code 
 ├── mariadb/
 │   ├── backup/
 │   ├── data/
@@ -89,11 +89,11 @@ website1/
 website2/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 186
-├── docker-compose_edit2.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 194
+├── docker-compose_edit.yml 
+├── docker-compose_edit2.yml
 ├── html/
 │   ├── index.php
-│   └── index_edit.php #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ index.php เมื่อทำ Practice Workshop ถึงหน้า 187
+│   └── index_edit.php 
 ├── mariadb/
 │   ├── backup/
 │   ├── data/
@@ -210,48 +210,47 @@ Chapter15
 register_ui_dock/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 341
+├── docker-compose_edit.yml 
 └── python/
     ├── Dockerfile
     ├── model.py
     ├── requirements.txt
-    ├── requirements_edit.txt #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ requirements.txt เมื่อทำ Practice Workshop ถึงหน้า 333
+    ├── requirements_edit.txt
     ├── templates/
     │   ├── authen.html
-    │   ├── authen_edit.html #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ authen.html เมื่อทำ Practice Workshop ถึงหน้า 350
+    │   ├── authen_edit.html 
     │   ├── otp.html
-    │   ├── otp_edit.html #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ otp.html เมื่อทำ Practice Workshop ถึงหน้า 350
-    │   ├── otp_edit2.html #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ otp.html เมื่อทำ Practice Workshop ถึงหน้า 383
+    │   ├── otp_edit.html
+    │   ├── otp_edit2.html
     │   ├── reg.html
-    │   └── reg_edit.html #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ reg.html เมื่อทำ Practice Workshop ถึงหน้า 351
+    │   └── reg_edit.html 
     ├── ui.py
-    ├── ui_edit.py #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ ui.py เมื่อทำ Practice Workshop ถึงหน้า 334
-    └── ui_edit2.py #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ ui.py เมื่อทำ Practice Workshop ถึงหน้า 347
+    ├── ui_edit.py 
+    └── ui_edit2.py 
 
 register_gateway_dock/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 354
-└── python/
+├── docker-compose_edit.yml 
     ├── Dockerfile
     ├── api.py
-    ├── api_edit.py #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ api.py เมื่อทำ Practice Workshop ถึงหน้า 355
+    ├── api_edit.py #นำ Code 
     └── requirements.txt
 
 otp_gateway_dock/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 357
+├── docker-compose_edit.yml 
 └── python/
     ├── Dockerfile
     ├── api.py
-    ├── api_edit.py #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ api.py เมื่อทำ Practice Workshop ถึงหน้า 357
+    ├── api_edit.py 
     └── requirements.txt
 
 student_dock/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 360
+├── docker-compose_edit.yml 
 ├── mariadb/
 │   ├── backup/
 │   ├── data/
@@ -259,14 +258,14 @@ student_dock/
 │       └── devops_db.sql
 └── python/
     ├── Dockerfile
-    ├── Dockerfile_edit #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ Dockerfile เมื่อทำ Practice Workshop ถึงหน้า 361
+    ├── Dockerfile_edit 
     ├── requirements.txt
     └── rpc.py
 
 enroll_dock/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 362
+├── docker-compose_edit.yml 
 ├── mariadb/
 │   ├── backup/
 │   ├── data/
@@ -274,44 +273,43 @@ enroll_dock/
 │       └── devops_db.sql
 └── python/
     ├── Dockerfile
-    ├── Dockerfile_edit #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ Dockerfile เมื่อทำ Practice Workshop ถึงหน้า 363
+    ├── Dockerfile_edit 
     ├── requirements.txt
     └── rpc.py
 
 email_dock/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 364
+├── docker-compose_edit.yml 
 └── python/
     ├── Dockerfile
-    ├── Dockerfile_edit #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ Dockerfile เมื่อทำ Practice Workshop ถึงหน้า 365
+    ├── Dockerfile_edit
     ├── requirements.txt
     └── rpc.py
 
 otp_dock/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 367
-└── python/
+├── docker-compose_edit.yml 
     ├── Dockerfile
-    ├── Dockerfile_edit #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ Dockerfile เมื่อทำ Practice Workshop ถึงหน้า 368
+    ├── Dockerfile_edit 
     ├── requirements.txt
     └── rpc.py
 
 send_email_otp_dock/
 .
 ├── docker-compose.yml
-├── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 370
+├── docker-compose_edit.yml 
 └── python/
     ├── Dockerfile
-    ├── Dockerfile_edit #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ Dockerfile เมื่อทำ Practice Workshop ถึงหน้า 371
+    ├── Dockerfile_edit 
     ├── requirements.txt
     └── rpc.py
 
 mq_dock/
 .
 ├── docker-compose.yml
-└── docker-compose_edit.yml #นำ Code ในไฟล์นี้ไปแทนที่ Code ในไฟล์ docker-compose.yml เมื่อทำ Practice Workshop ถึงหน้า 372
+└── docker-compose_edit.yml 
 
 Chapter16
 test_project/
