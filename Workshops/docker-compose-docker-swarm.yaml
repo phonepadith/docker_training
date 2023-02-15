@@ -1,0 +1,49 @@
+version: '3.1'
+
+services:
+  db:
+    container_name: database-mysql-2
+    image: mariadb:10.3
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - ./MySql/mysql_data:/var/lib/mysql
+      - ./MySql/db_conf:/etc/mysql
+    environment:
+      MARIADB_ROOT_PASSWORD: testdb12345
+    networks:
+      - my_backend
+
+  phpmyadmin:
+    container_name: phpmyadmin-2
+    image: phpmyadmin
+    restart: always
+    links:
+      - db
+    ports:
+      - 7000:80
+    environment:
+      - PMA_ARBITRARY=1
+      - UPLOAD_LIMIT=1024M
+      - MEMORY_LIMIT=1024M
+      - MAX_EXECUTION_TIME=300
+    networks:
+      - my_backend
+  api:
+    container_name: api
+    image: phonepadithpp/api-express:0.6
+    build:
+      context: api
+      dockerfile: ./Dockerfile
+    restart: always
+    ports:
+      - 2000:2000
+    networks:
+      - my_backend
+      - my_frontend
+networks:
+  my_backend:
+    driver: overlay
+  my_frontend:
+    driver: overlay
